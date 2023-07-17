@@ -16,7 +16,7 @@ export const Todo = () => {
   return (
     <div>
       <input type="text" onChange={textToDo} />
-      <button onClick={submitText}>Submit</button>
+      <button onClick={submitText}> Submit</button>
       {changeTodo.map((changeTodos) => (
         <div>{changeTodos}</div>
       ))}
